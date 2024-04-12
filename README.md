@@ -30,9 +30,8 @@
 - Type `git commit -m "Add README"` to commit the file with a message.
 
  Step 9: Link Your GitHub Repository
-- Go to GitHub and create a new repository.
-- Copy the repository's URL.
-- Back in VSCode, link your local repository to GitHub with `git remote add origin YOUR_REPOSITORY_URL`.
+-[e, link your local repository to GitHub with `git remote add origin YOUR_REPOSITORY_URL`.](https://github.com/ST10368662/Recipe_Manager)
+
 
  Step 10: Push to GitHub
 - Type `git push -u origin master` to push your commits to GitHub.
