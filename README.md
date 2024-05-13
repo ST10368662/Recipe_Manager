@@ -5,6 +5,15 @@
  Step 2: Create a New File
 - Go to `File > New File` from the menu, or use the shortcut `Ctrl+N` to create a new file.
 
+
+This C# code is a console application for managing recipes. Let's go through the code and understand its functionality:
+Classes:
+1. Ingredient: Represents an ingredient in a recipe. It has properties like Name, Quantity, Unit, Calories, and FoodGroup.
+2. Recipe: Represents a recipe. It contains a RecipeID, a list of Ingredients, a list of Steps, and a delegate for notifying calorie exceedance. It has methods for adding ingredients, adding steps, displaying the recipe, scaling the recipe, resetting ingredient quantities, clearing the recipe, calculating total calories, and checking for calorie exceedance.
+3. RecipeManager: Manages a list of recipes. It provides methods for adding a recipe, displaying all recipes, and displaying a recipe by its name.
+Main Method (Program. Main()):
+1. Initialization: It initializes a RecipeManager object and displays a welcome message.
+2. Menu Loop: It presents a menu to the user with options to add a recipe, display all
  Step 3: Write Your README
 - Start typing the content for your README. A README typically includes information like:
   - Name of the Recipe_Manager
