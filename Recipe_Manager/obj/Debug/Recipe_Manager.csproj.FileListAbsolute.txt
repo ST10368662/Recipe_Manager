@@ -1,0 +1,7 @@
+C:\Users\RC_Student_lab\source\repos\Recipe_Manager\Recipe_Manager\bin\Debug\partTwo.exe.config
+C:\Users\RC_Student_lab\source\repos\Recipe_Manager\Recipe_Manager\bin\Debug\partTwo.exe
+C:\Users\RC_Student_lab\source\repos\Recipe_Manager\Recipe_Manager\bin\Debug\partTwo.pdb
+C:\Users\RC_Student_lab\source\repos\Recipe_Manager\Recipe_Manager\obj\Debug\Recipe_Manager.csproj.AssemblyReference.cache
+C:\Users\RC_Student_lab\source\repos\Recipe_Manager\Recipe_Manager\obj\Debug\Recipe_Manager.csproj.CoreCompileInputs.cache
+C:\Users\RC_Student_lab\source\repos\Recipe_Manager\Recipe_Manager\obj\Debug\partTwo.exe
+C:\Users\RC_Student_lab\source\repos\Recipe_Manager\Recipe_Manager\obj\Debug\partTwo.pdb

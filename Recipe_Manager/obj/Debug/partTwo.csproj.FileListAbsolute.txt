@@ -1,0 +1,16 @@
+C:\Users\mamin\source\repos\partTwo\partTwo\bin\Debug\partTwo.exe.config
+C:\Users\mamin\source\repos\partTwo\partTwo\bin\Debug\partTwo.exe
+C:\Users\mamin\source\repos\partTwo\partTwo\bin\Debug\partTwo.pdb
+C:\Users\mamin\source\repos\partTwo\partTwo\obj\Debug\partTwo.csproj.AssemblyReference.cache
+C:\Users\mamin\source\repos\partTwo\partTwo\obj\Debug\partTwo.csproj.SuggestedBindingRedirects.cache
+C:\Users\mamin\source\repos\partTwo\partTwo\obj\Debug\partTwo.csproj.CoreCompileInputs.cache
+C:\Users\mamin\source\repos\partTwo\partTwo\obj\Debug\partTwo.exe
+C:\Users\mamin\source\repos\partTwo\partTwo\obj\Debug\partTwo.pdb
+C:\Users\mamin\Desktop\partTwo\partTwo\bin\Debug\partTwo.exe.config
+C:\Users\mamin\Desktop\partTwo\partTwo\bin\Debug\partTwo.exe
+C:\Users\mamin\Desktop\partTwo\partTwo\bin\Debug\partTwo.pdb
+C:\Users\mamin\Desktop\partTwo\partTwo\obj\Debug\partTwo.csproj.AssemblyReference.cache
+C:\Users\mamin\Desktop\partTwo\partTwo\obj\Debug\partTwo.csproj.SuggestedBindingRedirects.cache
+C:\Users\mamin\Desktop\partTwo\partTwo\obj\Debug\partTwo.csproj.CoreCompileInputs.cache
+C:\Users\mamin\Desktop\partTwo\partTwo\obj\Debug\partTwo.exe
+C:\Users\mamin\Desktop\partTwo\partTwo\obj\Debug\partTwo.pdb
