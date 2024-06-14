@@ -92,6 +92,75 @@ Main Method (Program. Main()):
   - Contributing Guidelines
   - License
 
+Open the project:
+
+Open the solution file (RecipeManagement.sln) in Visual Studio.
+Build the project:
+
+Build the project using Visual Studio to restore dependencies and compile the code.
+Run the application:
+
+Start debugging (F5) to run the application.
+Usage
+Capturing Recipe Name and Ingredients:
+
+Enter the recipe name and the number of ingredients.
+Fill in the details for each ingredient, including name, quantity, measurement, calories, and food group.
+Click "Capture" to store the ingredient details.
+Capturing Steps:
+
+After capturing ingredients, enter the number of steps.
+Fill in each step description.
+Click "Capture" to store each step.
+Displaying Recipes:
+
+Select a recipe from the combo box to display its details, including ingredients and steps.
+Scaling Ingredients:
+
+Select a recipe and a scaling factor to adjust the quantities of the ingredients.
+Clearing Recipes:
+
+Select a recipe to clear from the stored list.
+Filtering by Food Groups:
+
+Enter a food group to filter and display recipes containing ingredients from that food group.
+Classes and Methods
+capturing Class
+Fields:
+
+name of Recipe: Stores names of the recipes.
+The Ingredients: Stores ingredient names.
+The Quantity: Stores quantities of ingredients.
+The Measurements: Stores measurement units of ingredients.
+The calories: Stores calories for each ingredient.
+The food Groups: Stores food group information.
+The Steps: Stores steps of the recipe.
+Original Quantity: Stores original quantities before scaling.
+adding For Filter: Stores filtered food groups.
+Methods:
+
+count: Captures recipe name and number of ingredients.
+captures: Captures ingredient details.
+steps Number Count: Captures number of steps.
+steps Storing: Stores step descriptions.
+load: Loads recipe names into a combo box.
+list Box Display: Displays recipe details in a ListView.
+scal Recipe Name: Loads recipe names for scaling.
+listBox Scale: Displays scaled recipe details.
+Originality Recipe Names: Loads recipe names for resetting to original quantities.
+original Quantity Value: Resets ingredient quantities to original values.
+clear Recipe Name: Loads recipe names for clearing.
+Yes Clear: Clears selected recipe.
+calculate The Sum Of Calories: Calculates and sums the calories of ingredients.
+filter Display: Filters recipes by food groups.
+Error Handling
+The application includes error handling for common issues such as:
+Empty input fields.
+Non-numeric input in numeric fields.
+Exceeding calorie limits.
+Appropriate error messages are displayed using message boxes to guide the user in correcting the input.
+ 
+ 
  Step 4: Save the File as README.md
 - Go to `File > Save As`, or use the shortcut `Ctrl+S`.
 - Name your file `README.md` to ensure it is recognized as a Markdown file.
