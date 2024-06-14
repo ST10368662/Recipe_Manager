@@ -1,0 +1,50 @@
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\POE_ST10048805_PROG6221_KAGISO_KENNETH_KOOLE.exe.config
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\POE_ST10048805_PROG6221_KAGISO_KENNETH_KOOLE.exe
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\POE_ST10048805_PROG6221_KAGISO_KENNETH_KOOLE.pdb
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\LiveCharts.dll
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\LiveCharts.pdb
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\LiveCharts.xml
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\poe.csproj.AssemblyReference.cache
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\MainWindow.g.cs
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\App.g.cs
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\POE_ST10048805_PROG6221_KAGISO_KENNETH_KOOLE_MarkupCompile.cache
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\POE_ST10048805_PROG6221_KAGISO_KENNETH_KOOLE_MarkupCompile.lref
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\MainWindow.baml
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\POE_ST10048805_PROG6221_KAGISO_KENNETH_KOOLE.g.resources
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\POE_ST10048805_PROG6221_KAGISO_KENNETH_KOOLE.Properties.Resources.resources
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\poe.csproj.GenerateResource.cache
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\poe.csproj.CoreCompileInputs.cache
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\poe.csproj.Up2Date
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\POE_ST10048805_PROG6221_KAGISO_KENNETH_KOOLE.exe
+C:\Users\code-solutioin\Downloads\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\POE_ST10048805_KAGISO KENNETH KOOLE_PROG6221\poe\obj\Debug\POE_ST10048805_PROG6221_KAGISO_KENNETH_KOOLE.pdb
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\POE_ST10368662_PROG6221_RONEWA_MATHIKHI.exe.config
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\POE_ST10368662_PROG6221_RONEWA_MATHIKHI.exe
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\POE_ST10368662_PROG6221_RONEWA_MATHIKHI.pdb
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\LiveCharts.dll
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\LiveCharts.pdb
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\LiveCharts.xml
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\RC_Student_lab\Desktop\poe\poe\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\poe.csproj.AssemblyReference.cache
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\MainWindow.g.cs
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\App.g.cs
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\POE_ST10368662_PROG6221_RONEWA_MATHIKHI_MarkupCompile.cache
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\POE_ST10368662_PROG6221_RONEWA_MATHIKHI_MarkupCompile.lref
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\MainWindow.baml
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\POE_ST10368662_PROG6221_RONEWA_MATHIKHI.g.resources
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\POE_ST10368662_PROG6221_RONEWA_MATHIKHI.Properties.Resources.resources
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\poe.csproj.GenerateResource.cache
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\poe.csproj.CoreCompileInputs.cache
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\poe.csproj.CopyComplete
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\POE_ST10368662_PROG6221_RONEWA_MATHIKHI.exe
+C:\Users\RC_Student_lab\Desktop\poe\poe\obj\Debug\POE_ST10368662_PROG6221_RONEWA_MATHIKHI.pdb

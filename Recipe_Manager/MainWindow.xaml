@@ -1,0 +1,747 @@
+﻿<Window x:Class="poe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POE_ST10368662_PROG6221_RONEWA_MATHIKHI" xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        mc:Ignorable="d"
+        Title="POE_PROG6221" Height="600" Width="850"
+        WindowStyle="ToolWindow">
+    
+    <Grid>
+
+
+        
+        <Grid
+        x:Name="mainGrid"
+        Visibility="Visible"
+            
+        >
+            <!--The background image for the menu-->
+            <Image
+                
+                x:Name="white"
+                Source="/white.jpg" 
+                Stretch="Fill" 
+                Margin="-6,0,-2,0" 
+                
+             />
+
+            <!--Label to indentify the menu-->
+            <Label
+            Margin="361,36,0,0"
+            FontSize="20"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Foreground="Red"
+            >
+                RECIPE MENU
+            </Label>
+
+            <!--The button for capturing a recipe-->
+            <Button
+                x:Name="CaptureIngrideint"
+                Margin="358,103,337,436"
+                Foreground="Black"
+                FontSize="15"
+                Content="Capture ingrideint"
+                Click="CaptureIngrideint_Click"
+            >
+            </Button>
+
+            <!--The button for displaying the recipe-->
+            <Button
+                x:Name="Display"
+                Margin="358,177,337,362"
+                Foreground="Black"
+                FontSize="15"
+                Content="Display recipe" 
+                Click="Display_Click"
+            >
+
+            </Button>
+
+            <!--The button for scaling the recipe-->
+            <Button
+                x:Name="Scale"
+                Margin="358,255,337,284"
+                Foreground="Black"
+                FontSize="15"
+                Content="Scale"
+                Click="Scale_click"
+            >
+            </Button>
+
+            <!--The button for orginality-->
+            <Button
+                 x:Name="Originality"
+                 Margin="358,329,337,209"
+                 FontSize="15"
+                 Content="Originality"
+                 Click="originality_click"
+            >
+            </Button>
+
+            <!--The button for clear-->
+            <Button
+                x:Name="clear"
+                Margin="358,412,337,127"
+                Foreground="Black"
+                FontSize="15"
+                Content="Clear"
+                Click="clear_click"
+            >
+
+            </Button>
+
+            <!--The button for exit-->
+            <Button
+                x:Name="exit"
+                Margin="358,493,337,40"
+                Foreground="Red"
+                FontSize="20"
+                Content="Exit"
+                Click="exit_click"
+            >
+            </Button>
+
+
+
+
+           
+
+        </Grid>
+
+
+        <!--The grids to capture-->
+
+
+        <Grid
+            Visibility="Hidden"
+            x:Name="captureIngredeint_Grid"
+             >
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF002CFF"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <!--The name of the recipe-->
+            <Label
+                FontSize="25"
+                Margin="311,95,263,415"
+               
+                Content="       Recipe name "
+               
+                >
+            </Label>
+
+            <TextBox
+                    x:Name="captureRecipeName"
+                    Margin="178,169,138,348"
+                   
+                    >
+
+            </TextBox>
+
+            <!--The number of ingredients-->
+            <Label
+                    FontSize="25"
+                    Margin="243,241,125,261"
+                    Content="How many ingredients to capture"
+                    >
+
+            </Label>
+
+            <TextBox 
+                    x:Name="ingrendeintCount"
+                    Margin="290,317,253,208"
+                    >
+            </TextBox>
+
+            <Button 
+                    x:Name="CaptureIngredient"
+                    Margin="345,412,301,125"
+                    Content="Capture Ingredient/s"
+                    Click="ToCaptureRecipeData_Click"
+                    >
+            </Button>
+        </Grid>
+
+        <!--To capture ingredient data-->
+        <Grid
+                    Visibility="Hidden"
+                    x:Name="IngredeintData"
+            >
+
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF002CFF"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+
+
+            <!--if any error found while capturing should clear data-->
+            <Label
+                Visibility="Hidden"
+                x:Name="check"
+                Margin="10,0,703,544"
+                ></Label>
+
+
+            <!--The recipe name-->
+            <Label
+                        x:Name="TheNameOfRecipe"
+                        Margin="50,20,50,500"
+                        FontSize="20"
+                        FontStyle="Italic"
+                        Foreground="Red"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        >
+
+            </Label>
+
+            <Label
+                        x:Name="countingIngredeints"
+                        Margin="350,60,10,470"
+                        FontSize="15"
+                        Foreground="Red"
+                        FontStyle="Italic"
+                        >
+            </Label>
+
+            <!--The capturing of ingredient name-->
+            <Label
+                        Content="Ingredient name :"
+                        Foreground="Red"
+                        FontSize="20"
+                        Margin="45,129,360,385"
+                        FontStyle="Oblique"
+                        >
+
+            </Label>
+            <TextBox
+                        x:Name="Nameingredients"
+                        Margin="300,129,48,400"
+                        >
+            </TextBox>
+
+            <!---The capturing of ingredient quantity-->
+            <Label
+                        
+                        Content="Ingredient quantity:"
+                        Foreground="Red"
+                        FontSize="20"
+                        Margin="45,180,355,342"
+                        FontStyle="Oblique"
+                        >
+
+            </Label>
+
+            <TextBox
+                        x:Name="quanitityIngredeint"
+                         Margin="300,188,48,341"
+                        >
+
+            </TextBox>
+
+            <!--The capturing of the ingredient mesaurement-->
+            <Label
+                        Content="Measurement:"
+                        Foreground="Red"
+                        FontSize="20"
+                        Margin="45,236,405,248"
+                        FontStyle="Oblique"
+                        >
+
+            </Label>
+
+            <TextBox
+                        x:Name="measurementIngredeint"
+                        Margin="300,242,48,287"
+                        >
+            </TextBox>
+
+            <!--The capturing 0f food group-->
+            <Label
+                        Content="Food group:"
+                        Foreground="Red"
+                        FontSize="20"
+                        Margin="45,301,405,207"
+                        FontStyle="Oblique"
+                        >
+            </Label>
+
+            <ComboBox
+                        x:Name="foodgroupIngedient"
+                        Margin="300,304,48,220"
+                        >
+                <ComboBoxItem>
+                    Starchy foods
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    Vegetables and fruits
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    Dry beans, peas, lentils and soya
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    Chicken, fish, meat and eggs
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    Milk and dairy products
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    Fats and oil
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    Water
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    NOT SURE
+                </ComboBoxItem>
+            </ComboBox>
+
+            <!--The calories-->
+            <Label
+                        Margin="48,375,442,39"
+                        Content="Calories:"
+                        FontSize="20"
+                        Foreground="Red"
+                        FontStyle="Oblique"
+                        >
+            </Label>
+
+            <TextBox
+                        x:Name="caloriesIngredeint"
+                        Margin="300,380,48,149"
+                        >
+            </TextBox>
+
+            <!--next button-->
+            <Button
+                        x:Name="captureIngredient"
+                        Visibility="Visible"
+                        Margin="300,467,150,40"
+                        FontSize="15"
+                        Foreground="Red" 
+                        Click="capture_Click"
+                        >
+
+            </Button>
+
+        </Grid>
+
+        <!--The grid for capturing the steps-->
+        <Grid
+                        Visibility="Hidden"
+                        x:Name="stepsGrid"
+                        
+                        >
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF002CFF"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <Label
+                        Content="Enter number of steps"
+                        Margin="296,50,253,462"
+                        FontSize="25"
+                            >
+
+            </Label>
+            <TextBox
+                        x:Name="theNumberOfSteps"
+                        Margin="269,150,253,380"
+                        >
+            </TextBox>
+            <Button
+                        x:Name="numberOfSteps"
+                        Margin="354,267,345,247"
+                        Content="Number of steps"
+                        FontSize="15"
+                        Foreground="Red" 
+                        Click="numberOfSteps_Click"
+                        >
+
+            </Button>
+
+        </Grid>
+
+        <!--The steps capture grid-->
+        <Grid
+                    x:Name="captureSteps"
+                    Visibility="Hidden"
+                    
+                    >
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF002CFF"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <Label
+                        Content=" Step description "
+                        FontSize="40"
+                        Margin="243,102,256,377"
+                        >
+
+            </Label>
+
+            <Label
+                        x:Name="stepCount"
+                        FontSize="30"
+                        Foreground="Red"
+                        Margin="636,106,92,394"
+                        >
+
+            </Label>
+
+            <TextBox
+                        x:Name="stepContent"
+                        Margin="124,212,121,288"
+                        >
+            </TextBox>
+
+            <Button
+                        
+                        x:Name="steps"
+                        Margin="312,359,300,153"
+                        Content="Capture step"
+                        FontSize="25"
+                        Foreground="Red"
+                        Click="StepsCapture_click"
+                        >
+
+            </Button>
+
+        </Grid>
+
+
+
+
+        <!--Grid for displaying-->
+        <Grid
+                x:Name="display_Grid"
+                Visibility="Hidden"
+                
+            >
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF002CFF"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <Label
+                Content="Recipe name/s"
+                Margin="60,68,613,455"
+                FontSize="20"
+                ></Label>
+
+            <ComboBox
+                    x:Name="displayRecipeNames"
+                    Margin="17,122,544,401" 
+                  
+                    
+                    />
+
+            <!--Button for viewing recipe the the listviewBox-->
+            <Button
+                    x:Name="ViewRecipe"
+                    Margin="17,238,692,300"
+                    Content="view recipe"
+                    FontSize="15" 
+                    Click="ViewRecipe_Click"
+                    >
+
+            </Button>
+
+            <!--Add to filter button-->
+            <Button
+                x:Name="addToFilter"
+                Margin="200,238,500,300"
+                Content="Add to filter"
+                FontSize="15" Click="addToFilter_Click"
+                >
+
+            </Button>
+
+            <!--Button for clearing the the listviewBox-->
+            <Button
+                    x:Name="clearListView"
+                    Margin="17,322,692,216"
+                    Content="clear"
+                    FontSize="15" 
+                    Click="clearListView_Click" 
+                    RenderTransformOrigin="0.5,0.5"
+                    >
+
+
+            </Button>
+            <Button
+                x:Name="filterView"
+                Margin="200,322,500,216"
+                Content="View the filter"
+                Click="filterView_Click"
+                >
+
+            </Button>
+
+
+            <ListView
+                    x:Name="DisplayOfIngredeintData"
+                    Margin="400,34,23,79"
+                    
+                     />
+
+            <Button
+                Margin="529,510,76,20"
+                Content="Back to menu" 
+                Click="BackToMenuOnDisplay_Click"
+                >
+
+
+            </Button>
+
+
+        </Grid>
+
+        <!--Grid for scalling-->
+        <Grid
+                   Visibility="Hidden"
+                   x:Name="scale_Grid"
+                  
+           
+            >
+
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF002CFF"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+
+            <Label
+                Content="Recipe name/s"
+                Margin="378,14,295,509"
+                FontSize="20"
+                ></Label>
+
+            <Label
+                    Margin="401,104,287,435"
+                    Content="scales"
+                >
+
+            </Label>
+
+            <ComboBox
+                    x:Name="ScalingRecipeNames"
+                    Margin="173,50,151,473" 
+                     
+                    
+                    />
+
+            <ComboBox
+                    x:Name="CaluculationScale"
+                    Margin="272,136,281,401"
+                    >
+                <ComboBoxItem>0,5</ComboBoxItem>
+                <ComboBoxItem>2</ComboBoxItem>
+                <ComboBoxItem>3</ComboBoxItem>
+
+
+            </ComboBox>
+
+            <Button
+                    Margin="75,207,501,332"
+                    Content="view scaled recipe" 
+                    Click="viewScale_Click"
+                    
+                    />
+
+
+
+            <Button
+                    x:Name="closeScaledRecipe"
+                    Margin="488,207,82,332"
+                    Content="close scaled recipe"
+                    Click="CloseScaledeRecipe_Click"
+                    >
+
+            </Button>
+
+
+            <ListView
+                    x:Name="ScaledIngredeintData"
+                    Margin="102,267,113,50" 
+                    />
+
+            <Button
+                Margin="305,520,325,5"
+                Content="backToMenu"
+                Click="BackToMenuOnScale_Click"
+                >
+            </Button>
+
+
+
+        </Grid>
+
+        <!--the grid for originality-->
+        <Grid
+                     Visibility="Hidden"
+                     x:Name="orginality_Grid"
+                     
+                    
+            >
+
+
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF002CFF"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+
+            <Label
+                Content="Recipe name/s"
+                Margin="378,20,295,503"
+                FontSize="20"
+                ></Label>
+
+            <ComboBox
+                    x:Name="OriginalityRecipeNames"
+                    Margin="187,79,179,441"
+                    >
+            </ComboBox>
+
+            <Button
+                    Margin="285,220,258,294"
+                    Content="set to orginal"
+                    FontSize="25" 
+                    Click="setToOriginal_click"
+                    >
+
+            </Button>
+
+            <Button
+                Margin="321,396,295,107"
+                Content="Back to menu"
+                Click="BackToMenuOnOriginality_Click"
+                >
+            </Button>
+
+
+
+        </Grid>
+
+        <!--The clear grid-->
+        <Grid
+                  Visibility="Hidden"
+                  x:Name="clear_Grid"
+                  
+                  
+            >
+
+
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF002CFF"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+
+            <Label
+                Content="Recipe name/s"
+                Margin="375,14,298,509"
+                FontSize="20"
+                ></Label>
+
+            <ComboBox
+                    x:Name="clearRecipeName"
+                    Margin="200,72,200,449"
+                    >
+            </ComboBox>
+
+            <Button
+                    x:Name="Erase"
+                    Margin="337,177,333,334"
+                    Content="Clear data"
+                    Click="Erase_click"
+                    >
+            </Button>
+
+            <Label
+                x:Name="Sure"
+                Visibility="Hidden"    
+                Margin="334,274,254,258"
+                Content="Are you sure you want to clear "
+                Foreground="Red"   
+              
+                >
+            </Label>
+
+            <Button
+                    Visibility="Hidden"
+                    x:Name="Yes"
+                    Margin="88,320,493,205"
+                    Content="Yes"
+                    Click="Yes_click"
+                    >
+            </Button>
+
+            <Button
+                    Visibility="Hidden"
+                    x:Name="No"
+                    Margin="494,320,80,205"
+                    Content="No" Click="No_Click"
+                    >
+            </Button>
+
+            <Button
+                Margin="200,443,200,66"
+                Content="Back to menu"
+                Click="BackToMenuOnClear_Click"
+                >
+
+            </Button>
+
+
+        </Grid>
+
+
+
+      <!--For the filter in Pie chart-->
+
+        <Grid
+            x:Name="PIE"
+            Visibility="Hidden"
+            >
+            <lvc:PieChart Series="{Binding SeriesCollection}" Cursor="Hand" LegendLocation="Left" InnerRadius="130" Hoverable="True" Margin="0,0,126,0">
+
+
+
+            </lvc:PieChart>
+
+            <Button
+                x:Name="backToDisplay"
+                Margin="21,496,636,33"
+                Content="Back to display"
+                Click="backToDisplay_Click"
+                >
+            </Button>
+        </Grid>
+
+    </Grid>
+</Window>
